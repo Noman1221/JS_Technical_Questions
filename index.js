@@ -262,25 +262,25 @@
 
 
 // // Find the first non - repeating character in a string.
-// let str = "aaabccee";
+let str = "aaabccee";
 
-// let obj = {};
-// for (let i = 0; i < str.length; i++) {
-//     let char = str.charAt(i);
-//     if (obj[char]) {
-//         obj[char]++
-//     } else {
-//         obj[char] = 1;
-//     }
-// };
+let obj = {};
+for (let i = 0; i < str.length; i++) {
+    let char = str.charAt(i);
+    if (obj[char]) {
+        obj[char]++
+    } else {
+        obj[char] = 1;
+    }
+};
 
-// for (let key in obj) {
+for (let key in obj) {
 
-//     if (obj[key] === 1) {
-//         console.log(key);
-//         break;
-//     }
-// }
+    if (obj[key] === 1) {
+        console.log(key);
+        break;
+    }
+}
 
 
 // Count the occurrences of each character in a string.
@@ -497,4 +497,5 @@
 // console.log(secLargest);
 
 
+// Rotate an array by k steps.
 
