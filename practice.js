@@ -363,3 +363,33 @@ function reverse(nums, i, j) {
 // console.log(first.substring(0, i));
 
 
+// 5  1  3  
+// 9  2  6  
+// 4  7  8
+
+// Second largest in row 0: 3  
+// Second largest in row 1: 6  
+// Second largest in row 2: 7
+
+
+// a=[67,56,67,98,99,108,108]
+// output -: 98
+
+
+// let num = 1234;
+// let rev = 0;
+
+// while (0 < num) {
+//     let getDigit = num % 10;
+//     rev = rev * 10 + getDigit;
+//     num = Math.floor(num / 10);
+// };
+// console.log(rev);
+
+
+const arr = [[1, 2], [3, 4]];
+const shallowArr = [...arr];
+console.log(shallowArr);
+
+shallowArr[0][0] = 99;
+console.log(arr[0][0] === shallowArr[0][0]); 
