@@ -255,3 +255,54 @@
 
 // };
 // console.log(arr);
+
+
+// 21. FIND DUPLICATE ELEMENTS IN SORTED ARRAY, Algorithm: Linear Traversal
+
+// let arr = [2, 3, 1, 2, 3];
+
+// function Duplicate(arr){
+// let dupElm = [];
+// arr.sort((a,b)=> a-b);
+//   for(let i = 0; i<arr.length; i++){
+//    if (arr[i] === arr[i+1] && a) {
+//     dupElm[dupElm.length] = arr[i];
+//    }
+//   }
+//   return dupElm;
+// }
+// console.log(Duplicate(arr));
+
+// let obj = {1:3, 4:5,6:7,1:56};
+// if (obj[4]) {
+//     console.log(obj[1]);
+// }
+
+
+// 22. TWO SUM PROBLEM (SORTED ARRAY), Algorithm: Two Pointer Technique
+// let arr = [-1, 0, 1, 2, -1, -4];
+
+// function twoSum(arr){  
+//     arr.sort((a,b)=>a-b);
+//     let i = 0;
+//     let j = arr.length-1;
+//     let targetNum = 0;
+//   while (i<=j) {
+//  let sum = arr[i]+arr[j];
+//  if (sum === targetNum) {
+//     return [i,j];
+//  }else if (sum >= targetNum) {
+//     j--;
+//  }else{
+//     i++;
+//  }
+//   }
+// }
+// console.log(twoSum(arr));
+
+
+
+
+
+
+
