@@ -302,25 +302,41 @@
 
 
 // 23. BINARY SEARCH,Algorithm: Binary Search (Divide and Conquer)
-let arr = [1, 2, 3, 4, 6];
+// let Number = [4,5,12,14,23,45,89];
+// let target = 4;
 
-function binarySearch(arr, target) {
-    let i = 0;
-    let j = arr.length - 1;
+// function binarySearch(Number, target){
+// let i = 0; let j = Number.length-1;
+// while(i<=j){
+//     let mid = Math.floor((i+j)/2)
+    
+//     if (Number[mid] === target) {
+//         return mid
+//     }else if (Number[mid] < target) {
+//         i = mid+1;
+//     }else if (Number[mid] > target) {
+//         j = mid-1;
+//     }
+// }
+// return -1;
+// }
 
-    while (i <= j) {
-        let mid = Math.floor((i + j) / 2);
+// console.log(binarySearch(Number, target));
 
-        if (arr[mid] === target) {
-            return mid;
-        } else if (arr[mid] < target) {
-            i = mid + 1;
-        } else {
-            j = mid - 1;
-        }
-    }
 
-    return -1;
+// 24. REARRANGE ARRAY (MAX-MIN ALTERNATE),Algorithm: Mathematical Encoding
+let arr = [1, 2, 3, 4, 5, 6];
+let newArr = [];
+let low = 0;
+let max = arr.length-1;
+
+
+while(low <= max){
+let firstElm = arr[low];
+let lastElm = arr[max];
+newArr.push(firstElm);
+newArr.push(lastElm);
+low++;
+max--;
 }
-console.log(binarySearch(arr, 2));
-
+console.log(newArr);
