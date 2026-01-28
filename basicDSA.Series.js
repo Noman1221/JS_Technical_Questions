@@ -325,18 +325,50 @@
 
 
 // 24. REARRANGE ARRAY (MAX-MIN ALTERNATE),Algorithm: Mathematical Encoding
-let arr = [1, 2, 3, 4, 5, 6];
-let newArr = [];
-let low = 0;
-let max = arr.length-1;
+// let arr = [1, 2, 3, 4, 5, 6];
+// let newArr = [];
+// let low = 0;
+// let max = arr.length-1;
 
 
-while(low <= max){
-let firstElm = arr[low];
-let lastElm = arr[max];
-newArr.push(firstElm);
-newArr.push(lastElm);
-low++;
-max--;
+// while(low <= max){
+// let firstElm = arr[low];
+// let lastElm = arr[max];
+// newArr.push(firstElm);
+// newArr.push(lastElm);
+// low++;
+// max--;
+// }
+// console.log(newArr);
+
+
+
+// 25. INTERSECTION OF THREE SORTED ARRAYS, Algorithm: Three Pointer Technique
+
+let arr1 = [1, 5, 10, 20, 40, 80];
+let arr2 = [6, 7, 20, 80, 100];
+let arr3 = [3, 4, 15, 20, 30, 70, 80];
+function intersection(arr1, arr2, arr3) {
+    let i = 0, j = 0, k = 0;
+    let res = [];
+
+    while (i < arr1.length && j < arr2.length && k < arr3.length) {
+        if (arr1[i] === arr2[j] && arr1[i] === arr3[k]) {
+            res.push(arr1[i]);
+            i++;
+            j++;
+            k++;
+        } 
+        else if (arr1[i] < arr2[j]) {
+            i++;
+        } 
+        else if (arr2[j] < arr3[k]) {
+            j++;
+        } 
+        else {
+            k++;
+        }
+    }
+
+    return res;
 }
-console.log(newArr);
