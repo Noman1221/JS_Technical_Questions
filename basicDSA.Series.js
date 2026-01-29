@@ -345,30 +345,166 @@
 
 // 25. INTERSECTION OF THREE SORTED ARRAYS, Algorithm: Three Pointer Technique
 
-let arr1 = [1, 5, 10, 20, 40, 80];
-let arr2 = [6, 7, 20, 80, 100];
-let arr3 = [3, 4, 15, 20, 30, 70, 80];
-function intersection(arr1, arr2, arr3) {
-    let i = 0, j = 0, k = 0;
-    let res = [];
+// let arr1 = [1, 5, 10, 20, 40, 80];
+// let arr2 = [6, 7, 20, 80, 100];
+// let arr3 = [3, 4, 15, 20, 30, 70, 80];
+// function Intersection(arr1,arr2,arr3){
+//     let res = [];
+//     let  i = 0, j = 0, k = 0;
+//     while(i<arr1.length && j<arr2.length && k <arr3.length){
+//         if (arr1[i] === arr2[j] && arr1[i] === arr3[k]) {
+//             res.push(arr1[i]);
+//             i++;
+//             j++;
+//             k++;
+//         } else if (arr1[i] < arr2[j]) {
+//             i++;
+//         }else if (arr2[j] < arr3[k]) {
+//             j++;
+//         }else{
+//             k++;
+//         }
+//     }
+//     return res;
+// }
 
-    while (i < arr1.length && j < arr2.length && k < arr3.length) {
-        if (arr1[i] === arr2[j] && arr1[i] === arr3[k]) {
-            res.push(arr1[i]);
-            i++;
-            j++;
-            k++;
-        } 
-        else if (arr1[i] < arr2[j]) {
-            i++;
-        } 
-        else if (arr2[j] < arr3[k]) {
-            j++;
-        } 
-        else {
-            k++;
-        }
-    }
+// console.log(Intersection(arr1,arr2,arr3));
 
-    return res;
-}
+
+// 25. INTERSECTION OF Two SORTED ARRAYS, Algorithm: Three Pointer Technique
+// let arr1 = [1, 5, 10, 20, 40, 80];
+// let arr2 = [6, 7, 20, 80, 100];
+
+// function Intersection(a1,a2){
+//     let res = [];
+//     let  i = 0; let j = 0;
+//     while(i<a1.length && j<a2.length){
+//         if (a1[i] === a2[j]) {
+//             res.push(a1[i]);
+//             i++;
+//             j++;
+//         }else if (a1[i] < a2[j]) {
+//             i++;
+//         }else{
+//             j++;
+//         }
+//     }
+//     return res;
+
+// }
+
+// console.log(Intersection(arr1,arr2));
+
+
+// 26. FIRST NON-REPEATING CHARACTER, Algorithm: Hash Map (Frequency Counting)
+// let str = "aaabccee";
+// function nonRepeating(str){
+//     let obj = {}
+//   for(let  i = 0; i<str.length; i++){
+//       let char  = str.charAt(i)
+//       if (obj[char]) {
+//         obj[char]++;
+//       }else{
+//         obj[char] = 1
+//       }  
+//   }
+//   return obj
+// }
+
+// let checkNon = nonRepeating(str);
+// console.log(checkNon);
+
+// for(let key in checkNon){
+// if (checkNon[key] === 1) {
+//     console.log(key);
+//     break;
+// }
+// }
+
+
+// 27. COUNT CHARACTER OCCURRENCES, Algorithm: Hash Map (Frequency Counting)
+// let str = "aaabebbssbe";
+
+// function Occurrences(str){
+//     let obj = {};
+// for(let i = 0; i<str.length; i++){
+//     let char = str.charAt(i);
+//    if (obj[char]) {
+//     obj[char]++;
+//    }else{
+//   obj[char] = 1
+//    }
+// }
+// return obj;
+// }
+// let Occur = Occurrences(str);
+
+// for(let key in Occur){
+//     console.log(`${key} comes ${Occur[key]} times`);
+// }
+
+
+// 28. MOST FREQUENT ELEMENT IN ARRAY,Algorithm: Hash Map (Frequency Counting)
+// let arr = [2, 1, 3, 2, 1, 2, 6, 2, 7, 2];
+
+// function FreqElm(arr){
+//     let freqArr = {};
+//     for(let  i = 0; i<arr.length; i++){
+//         if (freqArr[arr[i]]) {
+//             freqArr[arr[i]]++;
+//         }else{
+//             freqArr[arr[i]] = 1;
+//         }
+//     }
+//     return freqArr;
+// }
+
+// let freqElm = FreqElm(arr);
+// let mostFreqElm = -Infinity;
+// for(let key in freqElm){
+//  if (freqElm[key] > mostFreqElm) {
+//     mostFreqElm = freqElm[key];
+//  }
+// }
+// console.log(mostFreqElm);
+
+
+
+// 29. CHECK ANAGRAM,Algorithm: Frequency Array, Use Case: String comparison
+
+// let ang1 = "listen";
+// let ang2 = "silent";
+
+
+
+// function checkAnagram(ang1, ang2){
+// let freqArr = new Array(26).fill(0);
+
+
+
+// if (ang1.length != ang2.length) {
+//     console.log("not anagram");
+//     return;
+// }else{
+//     for(let i = 0; i<ang1.length; i++){
+//         let valueOfChar1 = ang1.charCodeAt(i)-97;
+//         let valueOfChar2 = ang2.charCodeAt(i)-97;
+//      freqArr[valueOfChar1]++;
+//      freqArr[valueOfChar2]--;
+    
+//     }
+
+//     for(let val of freqArr){
+//         if (val != 0) {
+//             console.log("Not Anagram!");
+//             return;
+//         }
+//     }
+// }
+
+// console.log("Anagram");
+
+
+// }
+// checkAnagram(ang1,ang2)
+
