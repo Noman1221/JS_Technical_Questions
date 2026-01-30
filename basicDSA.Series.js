@@ -508,3 +508,65 @@
 // }
 // checkAnagram(ang1,ang2)
 
+
+// 32. FIND MAX AND MIN IN ARRAY,Algorithm: Linear Traversal
+// let num = [2, 5, 34, 1, 8, 0, 2, 45];
+// function findMinMax(num){
+// let maxNum = -Infinity;
+// let minNum = Infinity;
+
+// for(let i = 0; i<num.length; i++){
+//     if (num[i] > maxNum) {
+//         maxNum = num[i];
+//     }
+//     if (num[i] < minNum) {
+//         minNum = num[i];
+//     }
+// }
+// console.log(maxNum, minNum);
+// }
+ 
+// findMinMax(num)
+
+
+// 33. REMOVE DUPLICATES FROM ARRAY,Algorithm: Set-based Approach
+// let arr = [4, 2, 5, 1, 4, 3];
+
+// function removeDuplicate(arr){
+// arr.sort((a,b)=> a-b);
+// let duplicate = [];
+// for(let i = 0; i<arr.length; i++){
+//     if (!duplicate.includes(arr[i])) {
+//         duplicate.push(arr[i]);
+//     }
+// }
+// return duplicate;
+// }
+// console.log(removeDuplicate(arr));
+
+
+// // 35. UNION OF TWO ARRAYS
+// let arr1 = [1, 2, 3];
+// let arr2 = [2, 3, 4];
+
+// function Union(arr1,arr2){
+// let combine = [];
+// for(let i = 0; i<arr1.length; i++){
+//     combine.push(arr1[i]);
+// }
+// for(let i = 0; i<arr2.length; i++){
+//     combine.push(arr2[i]);
+// };
+// return combine;
+// }
+// let newArr =  Union(arr1,arr2);
+// newArr.sort((a,b)=> a-b);
+// let unionArr = [];
+// for(let i = 0; i<newArr.length; i++){
+// if (i === 0 || newArr[i] !== newArr[i-1]) {
+//     unionArr.push(newArr[i]);
+// };
+// };
+// console.log(unionArr);
+
+
