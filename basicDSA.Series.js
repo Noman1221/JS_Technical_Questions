@@ -532,7 +532,7 @@
 // 33. REMOVE DUPLICATES FROM ARRAY,Algorithm: Set-based Approach
 // let arr = [4, 2, 5, 1, 4, 3];
 
-// function removeDuplicate(arr){
+// function removeDuplicate(arr){ 
 // arr.sort((a,b)=> a-b);
 // let duplicate = [];
 // for(let i = 0; i<arr.length; i++){
