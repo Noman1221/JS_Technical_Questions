@@ -586,3 +586,17 @@
 // }
 // console.log(bubleSort(arr));
 
+
+// 37. SECOND LARGEST IN ARRAY, Algorithm: Linear Traversal with Tracking
+// let arr = [6, 23, 2, 5, 1, 3, 6];
+// let largest = -Infinity;
+// let secLargest = -Infinity;
+// for (let i = 0; i < arr.length; i++) {
+//     if (arr[i] >= largest) {
+//         secLargest = largest;
+//         largest = arr[i];
+//     } else if (arr[i] > secLargest && arr[i] < largest) {
+//         secLargest = arr[i];
+//     }
+// }
+// console.log(secLargest);
