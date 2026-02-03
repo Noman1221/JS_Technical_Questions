@@ -600,3 +600,121 @@
 //     }
 // }
 // console.log(secLargest);
+
+// 38. KADANE'S ALGORITHM (MAXIMUM SUBARRAY SUM)-
+// let arr = [-2, -3, -4, 2, -2, -1, -5, -3];
+// function maxSubSum(arr){
+// let currentSum = arr[0];
+// let maxSum = arr[0];
+// for(let i = 1; i<arr.length; i++){
+// currentSum = Math.max(arr[i], currentSum + arr[i]);
+// maxSum = Math.max(currentSum, maxSum);
+// }
+// return maxSum;
+// }
+// console.log(maxSubSum(arr));
+
+// 40. STRING COMPRESSION
+// let compress = "aaabbbcee";
+
+// function compressString(str){
+//     let compStr = ""
+//     for(let i = 0; i<str.length; i++){
+//         let count = 1;
+//         let char = str.charAt(i);
+//         while (i<str.length && char === str[i+1]) {
+//             count++;
+//             i++;
+//         }
+        
+//         compStr += str[i]+count;
+        
+        
+//     };
+//     return compStr
+// };
+// console.log(compressString(compress));
+
+// 41. MOVE ZEROS TO END,Algorithm: Two Pointer (Stable Partition)
+// let num = [0, 1, 0, 3, 12];
+// function  MoveZeroes(){
+//     let newArr = [];
+// let index = 0;
+// for(let i = 0; i<num.length; i++){
+//     if (num[i] > 0) {
+//         newArr.push(num[i]);
+//         index++;
+//     }
+// }
+
+// for( index; index<num.length; index++){
+// newArr[index] = 0;
+// }
+// return newArr
+// }
+
+// console.log(MoveZeroes(num));
+
+
+// 42. MOVE ZEROS TO END,Algorithm: Two Pointer (Stable Partition)
+// let num = [0, 1, 0, 3, 12];
+
+// let i = 0;
+// let pos = 0;
+// let end = num.length-1;
+// while(i<=end){
+//    if (num[i] != 0) {
+//     let temp = num[i];
+//     num[i] = num[pos];
+//     num[pos] = temp;
+//     pos++
+//    }
+//     i++;
+// };
+// console.log(num);
+
+// 43. ROTATE ARRAY BY K POSITIONS,Algorithm: Array Reversal Technique
+
+// let nums = [1, 2, 3, 4, 5, 6, 7], k = 3;
+
+// function Reverse(num, i, j){
+// while(i<j){
+//     let temp = num[i];
+//     num[i] = num[j];
+//     num[j] = temp;
+//     i++;
+//     j--;
+// }
+// return num
+// };
+
+// console.log(Reverse(nums, 0, nums.length-1));
+// console.log(Reverse(nums, 0, k-1));
+// console.log(Reverse(nums, k, nums.length-1));
+
+
+
+// 44. REVERSE WORDS IN STRING,Algorithm: Split, Reverse, Join
+
+let str = "the sky is blue";
+// const newStr = str.split(" ").reverse().join(" ");
+
+
+
+// function reverseWords(str){
+//     let i = 0, j=str.length-1;
+//     while (i<j) {
+//         let temp = str[i];
+//         str[i] = str[j];
+//         str[j] = temp;
+//         i++;
+//         j--;
+//     }
+//     return str;
+// };
+
+// let revsreStr = reverseWords(newStr);
+// let rev = revsreStr.join(" ")
+// console.log(rev);
+
+
