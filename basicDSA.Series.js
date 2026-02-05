@@ -696,7 +696,7 @@
 
 // 44. REVERSE WORDS IN STRING,Algorithm: Split, Reverse, Join
 
-let str = "the sky is blue";
+// let str = "the sky is blue";
 // const newStr = str.split(" ").reverse().join(" ");
 
 
@@ -717,4 +717,23 @@ let str = "the sky is blue";
 // let rev = revsreStr.join(" ")
 // console.log(rev);
 
+
+// function multiplier(factor) {
+//   return function(number) {
+//     return number * factor;
+//   };
+// }
+
+// const double = multiplier(2);
+// console.log(double(5));
+
+// 48. FIND MISSING NUMBER,Algorithm: Sequential Search
+// let miss = [9, 6, 4, 2, 3, 5, 7, 0, 1];
+// let n = miss.length;
+// let expectedSum = n*(n+1)/2;
+// let actualSum = 0;
+// for(let i = 0; i<miss.length; i++){
+//   actualSum += miss[i];
+// };
+// console.log(expectedSum-actualSum);
 
