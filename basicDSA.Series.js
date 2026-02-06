@@ -737,3 +737,39 @@
 // };
 // console.log(expectedSum-actualSum);
 
+// 51. MERGE TWO SORTED ARRAYS,Algorithm: Two Pointer Merge
+let arr1 = [1, 3, 5, 7], arr2 = [2, 4, 6, 8];
+
+
+
+function MergeTwoSorted(arr1, arr2){
+    let i = 0, j = 0;
+let k = 0;
+let temp = [];
+while (i<arr1.length && j<arr2.length) {
+    if (arr1[i] > arr2[j]) {
+        temp.push(arr2[j]);
+        j++
+    }else{
+        temp.push(arr1[i]);
+        i++;
+    };
+};
+
+while(i<arr1.length){
+    temp.push(arr1[i]);
+    i++;
+}
+while(j<arr2.length){
+    temp.push(arr2[j]);
+    j++;
+};
+
+for(let i = 0; i<temp.length; i++){
+    arr1.push(temp[i]);
+};
+arr1 = temp
+return arr1;
+}
+console.log(MergeTwoSorted(arr1, arr2));
+
