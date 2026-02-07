@@ -738,38 +738,69 @@
 // console.log(expectedSum-actualSum);
 
 // 51. MERGE TWO SORTED ARRAYS,Algorithm: Two Pointer Merge
-let arr1 = [1, 3, 5, 7], arr2 = [2, 4, 6, 8];
+// let arr1 = [1, 3, 5, 7], arr2 = [2, 4, 6, 8];
+// function MergeTwoSorted(arr1, arr2){
+//     let i = 0, j = 0;
+// let k = 0;
+// let temp = [];
+// while (i<arr1.length && j<arr2.length) {
+//     if (arr1[i] > arr2[j]) {
+//         temp.push(arr2[j]);
+//         j++
+//     }else{
+//         temp.push(arr1[i]);
+//         i++;
+//     };
+// };
+
+// while(i<arr1.length){
+//     temp.push(arr1[i]);
+//     i++;
+// }
+// while(j<arr2.length){
+//     temp.push(arr2[j]);
+//     j++;
+// };
+
+// for(let i = 0; i<temp.length; i++){
+//     arr1.push(temp[i]);
+// };
+// arr1 = temp
+// return arr1;
+// }
+// console.log(MergeTwoSorted(arr1, arr2));
 
 
-
-function MergeTwoSorted(arr1, arr2){
-    let i = 0, j = 0;
-let k = 0;
-let temp = [];
-while (i<arr1.length && j<arr2.length) {
-    if (arr1[i] > arr2[j]) {
-        temp.push(arr2[j]);
-        j++
-    }else{
-        temp.push(arr1[i]);
-        i++;
+// 53. MAJORITY ELEMENT (BOYER-MOORE VOTING),Algorithm: Boyer-Moore Voting Algorithm
+let elm = [1, 2, 1, 4, 1, 1, 1];
+function MajorityElm(elm){
+    let temp = {};
+    for(let i = 0; i<elm.length; i++){
+        let num = elm[i]
+        if (temp[num]) {
+            temp[num]++
+        }else{
+            temp[num] = 1;
+        };
     };
-};
-
-while(i<arr1.length){
-    temp.push(arr1[i]);
-    i++;
+    let greaterNumber = 0;
+    let keyword1 = null;
+    for(let val in temp){
+       if (temp[val] > greaterNumber) {
+        greaterNumber = temp[val];
+        keyword1 = val;
+       }
+        
+    }
+    console.log(keyword1);
+    
+    
+    if(greaterNumber > Math.floor(elm.length/2)){
+       console.log( keyword1 , " its a majority element");
+       
+    }else
+        console.log("not majority element");
+        
+    
 }
-while(j<arr2.length){
-    temp.push(arr2[j]);
-    j++;
-};
-
-for(let i = 0; i<temp.length; i++){
-    arr1.push(temp[i]);
-};
-arr1 = temp
-return arr1;
-}
-console.log(MergeTwoSorted(arr1, arr2));
-
+MajorityElm(elm)
