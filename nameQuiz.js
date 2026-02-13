@@ -115,3 +115,62 @@
 // 2. **Week 3-4**: Complete Intermediate Level (15-37)
 // 3. **Week 5-6**: Complete Advanced Level (38-70)
 
+// Array Problems (12 questions)
+
+// Find All Pairs with Given Sum - Two Pointer/Hash Map
+// Product of Array Except Self - Prefix/Suffix Product
+// Best Time to Buy and Sell Stock - Single Pass Algorithm
+// Trapping Rain Water - Two Pointer Technique
+// Next Permutation - In-place Rearrangement
+// Find Peak Element - Binary Search Variant
+// Search in Rotated Sorted Array - Modified Binary Search
+// Kth Largest Element - QuickSelect/Heap
+// Merge Intervals - Sorting + Merging
+// Jump Game - Greedy Algorithm
+// Longest Consecutive Sequence - Hash Set
+// Subarray Sum Equals K - Hash Map + Prefix Sum
+
+// String Problems (8 questions)
+
+// Longest Substring Without Repeating Characters - Sliding Window
+// Valid Parentheses - Stack-based Validation
+// Longest Palindromic Substring - Dynamic Programming/Expand Around Center
+// Group Anagrams - Hash Map with Sorted Keys
+// Implement strStr() - String Matching (KMP Algorithm)
+// Longest Common Prefix - Vertical/Horizontal Scanning
+// Valid Palindrome (Alphanumeric Only) - Two Pointer
+// Zigzag Conversion - Pattern Building
+
+// Object/Hash Map Problems (5 questions)
+
+// Two Sum (Unsorted Array) - Hash Map
+// Isomorphic Strings - Character Mapping
+// Word Pattern - Hash Map Matching
+// Contains Duplicate - Set/Hash Map
+// Valid Sudoku - Hash Set Validation
+
+// Linked List Problems (6 questions)
+
+// Reverse Linked List - Iterative/Recursive
+// Detect Cycle in Linked List - Floyd's Cycle Detection
+// Merge Two Sorted Linked Lists - Two Pointer
+// Remove Nth Node From End - Two Pointer
+// Find Middle of Linked List - Slow/Fast Pointer
+// Palindrome Linked List - Reverse + Compare
+
+// Stack/Queue Problems (4 questions)
+
+// Implement Stack Using Queues - Queue-based Stack
+// Implement Queue Using Stacks - Stack-based Queue
+// Min Stack - Auxiliary Stack
+// Next Greater Element - Monotonic Stack
+
+// Matrix Problems (2 questions)
+
+// Spiral Matrix Traversal - Boundary Traversal
+// Rotate Matrix 90 Degrees - In-place Rotation
+
+// Recursion/Backtracking (2 questions)
+
+// Generate Parentheses - Backtracking
+// Power Set (All Subsets) - Backtracking/Bit Manipulation

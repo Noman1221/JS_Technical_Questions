@@ -95,7 +95,7 @@
 // CheckPrimeNumber(arr);
 
 
-// 7. CHECK EVEN OR ODD Algorithm: Modulo Operation
+// 6. CHECK EVEN OR ODD Algorithm: Modulo Operation
 // let num = 4;
 // function EvenOrOddd(num){
 //     if (num % 2===0) {
@@ -106,7 +106,7 @@
 // };
 // EvenOrOddd(num);
 
-// 8. CALCULATE AREA OF CIRCLE Algorithm: Mathematical Formula
+// 7. CALCULATE AREA OF CIRCLE Algorithm: Mathematical Formula
 // let ar = 4;
 
 // function AreaOfCircle(ar){
@@ -116,7 +116,7 @@
 // }
 // console.log(AreaOfCircle(ar));
 
-// 9. SUM OF ARRAY ELEMENTS
+// 8. SUM OF ARRAY ELEMENTS
 // let arr = [3, 4, 5];
 
 // function arrOfSum(arr){
@@ -131,7 +131,7 @@
 // console.log(arrOfSum(arr));
 
 
-// 11. CHECK IF STRING STARTS WITH CHARACTER
+// 9. CHECK IF STRING STARTS WITH CHARACTER
 // let str = "hello";
 // const firstChar = "h";
 // function start(str){
@@ -146,7 +146,7 @@
 // start(str)S
 
 
-// 13. REVERSE STRING USING BUILT-IN METHODS
+// 10. REVERSE STRING USING BUILT-IN METHODS
 // let str = "robin";
 // function reverse(str){
 // let newStr = str.split("").reverse().join("");
@@ -154,7 +154,7 @@
 // }
 // console.log(reverse(str));
 
-// 14. FIND LARGEST IN ARRAY
+// 11. FIND LARGEST IN ARRAY
 // let num = [1, 2, 3,16, 4, 5];
 // function largest(num){
 //     let largest = -Infinity;
@@ -167,11 +167,11 @@
 // };
 // console.log(largest(num));
 
-// 15. POWER CALCULATION (X^N) - OPTIMIZED 
+// 12. POWER CALCULATION (X^N) - OPTIMIZED 
 
 
 
-// 16. CONTAINER WITH MOST WATER, Algorithm: Two Pointer Technique
+// 13. CONTAINER WITH MOST WATER, Algorithm: Two Pointer Technique
 // let height = [1, 8, 6, 2, 5, 4, 8, 3, 7];
 // const MostWater = (height)=>{
 //     let  i = 0;
@@ -196,7 +196,7 @@
 
 
 
-// 17. SORT COLORS (DUTCH NATIONAL FLAG) Algorithm: Dutch National Flag Algorithm (Three-way Partitioning)
+// 14. SORT COLORS (DUTCH NATIONAL FLAG) Algorithm: Dutch National Flag Algorithm (Three-way Partitioning)
 // let arr = [2, 0, 2, 1, 1, 0];
 
 // const sort_color = (arr)=>{
@@ -223,10 +223,10 @@
 // return arr;
 // }
 // console.log(sort_color(arr));
-// 18. THREE SUM PROBLEM Algorithm: Two Pointer with Sorting
+// 15. THREE SUM PROBLEM Algorithm: Two Pointer with Sorting
 // let nums = [-1, 0, 1, 2, -1, -4];
 
-// 19. MOVE POSITIVE NUMBERS TO LEFT Algorithm: Two Pointer (Partition)
+// 16. MOVE POSITIVE NUMBERS TO LEFT Algorithm: Two Pointer (Partition)
 // let arr = [1, -1, 3, 2, -7, -5, 11, 6];
 // let i = 0; let j = arr.length-1;
 // let k = 0;
@@ -243,7 +243,7 @@
 
 
 
-// 20. ROTATE ARRAY BY ONE POSITION ,Algorithm: Array Rotation
+// 17. ROTATE ARRAY BY ONE POSITION ,Algorithm: Array Rotation
 // let arr = [1, 2, 3, 4, 5];
 // let lastElm = arr[arr.length-1];
 // let j = 0
@@ -257,7 +257,7 @@
 // console.log(arr);
 
 
-// 21. FIND DUPLICATE ELEMENTS IN SORTED ARRAY, Algorithm: Linear Traversal
+// 18. FIND DUPLICATE ELEMENTS IN SORTED ARRAY, Algorithm: Linear Traversal
 
 // let arr = [2, 3, 1, 2, 3];
 
@@ -279,7 +279,7 @@
 // }
 
 
-// 22. TWO SUM PROBLEM (SORTED ARRAY), Algorithm: Two Pointer Technique
+// 19. TWO SUM PROBLEM (SORTED ARRAY), Algorithm: Two Pointer Technique
 // let arr = [-1, 0, 1, 2, -1, -4];
 
 // function twoSum(arr){  
@@ -301,7 +301,7 @@
 // console.log(twoSum(arr));
 
 
-// 23. BINARY SEARCH,Algorithm: Binary Search (Divide and Conquer)
+// 20. BINARY SEARCH,Algorithm: Binary Search (Divide and Conquer)
 // let Number = [4,5,12,14,23,45,89];
 // let target = 4;
 
@@ -324,7 +324,7 @@
 // console.log(binarySearch(Number, target));
 
 
-// 24. REARRANGE ARRAY (MAX-MIN ALTERNATE),Algorithm: Mathematical Encoding
+// 21. REARRANGE ARRAY (MAX-MIN ALTERNATE),Algorithm: Mathematical Encoding
 // let arr = [1, 2, 3, 4, 5, 6];
 // let newArr = [];
 // let low = 0;
@@ -343,7 +343,7 @@
 
 
 
-// 25. INTERSECTION OF THREE SORTED ARRAYS, Algorithm: Three Pointer Technique
+// 22. INTERSECTION OF THREE SORTED ARRAYS, Algorithm: Three Pointer Technique
 
 // let arr1 = [1, 5, 10, 20, 40, 80];
 // let arr2 = [6, 7, 20, 80, 100];
@@ -371,7 +371,7 @@
 // console.log(Intersection(arr1,arr2,arr3));
 
 
-// 25. INTERSECTION OF Two SORTED ARRAYS, Algorithm: Three Pointer Technique
+// 23. INTERSECTION OF Two SORTED ARRAYS, Algorithm: Three Pointer Technique
 // let arr1 = [1, 5, 10, 20, 40, 80];
 // let arr2 = [6, 7, 20, 80, 100];
 
@@ -396,7 +396,7 @@
 // console.log(Intersection(arr1,arr2));
 
 
-// 26. FIRST NON-REPEATING CHARACTER, Algorithm: Hash Map (Frequency Counting)
+// 24. FIRST NON-REPEATING CHARACTER, Algorithm: Hash Map (Frequency Counting)
 // let str = "aaabccee";
 // function nonRepeating(str){
 //     let obj = {}
@@ -422,7 +422,7 @@
 // }
 
 
-// 27. COUNT CHARACTER OCCURRENCES, Algorithm: Hash Map (Frequency Counting)
+// 25. COUNT CHARACTER OCCURRENCES, Algorithm: Hash Map (Frequency Counting)
 // let str = "aaabebbssbe";
 
 // function Occurrences(str){
@@ -444,7 +444,7 @@
 // }
 
 
-// 28. MOST FREQUENT ELEMENT IN ARRAY,Algorithm: Hash Map (Frequency Counting)
+// 26. MOST FREQUENT ELEMENT IN ARRAY,Algorithm: Hash Map (Frequency Counting)
 // let arr = [2, 1, 3, 2, 1, 2, 6, 2, 7, 2];
 
 // function FreqElm(arr){
@@ -470,7 +470,7 @@
 
 
 
-// 29. CHECK ANAGRAM,Algorithm: Frequency Array, Use Case: String comparison
+// 27. CHECK ANAGRAM,Algorithm: Frequency Array, Use Case: String comparison
 
 // let ang1 = "listen";
 // let ang2 = "silent";
@@ -509,7 +509,7 @@
 // checkAnagram(ang1,ang2)
 
 
-// 32. FIND MAX AND MIN IN ARRAY,Algorithm: Linear Traversal
+// 28. FIND MAX AND MIN IN ARRAY,Algorithm: Linear Traversal
 // let num = [2, 5, 34, 1, 8, 0, 2, 45];
 // function findMinMax(num){
 // let maxNum = -Infinity;
@@ -529,7 +529,7 @@
 // findMinMax(num)
 
 
-// 33. REMOVE DUPLICATES FROM ARRAY,Algorithm: Set-based Approach
+// 29. REMOVE DUPLICATES FROM ARRAY,Algorithm: Set-based Approach
 // let arr = [4, 2, 5, 1, 4, 3];
 
 // function removeDuplicate(arr){ 
@@ -545,7 +545,7 @@
 // console.log(removeDuplicate(arr));
 
 
-// // 35. UNION OF TWO ARRAYS
+// // 30. UNION OF TWO ARRAYS
 // let arr1 = [1, 2, 3];
 // let arr2 = [2, 3, 4];
 
@@ -570,7 +570,7 @@
 // console.log(unionArr);
 
 
-//36 Algorithm: Bubble Sort
+//31 Algorithm: Bubble Sort
 // let arr = [5, 3, 4, 1, 2];
 // function bubleSort(arr){
 //     for(let i  = 0; i<arr.length; i++){
@@ -587,7 +587,7 @@
 // console.log(bubleSort(arr));
 
 
-// 37. SECOND LARGEST IN ARRAY, Algorithm: Linear Traversal with Tracking
+// 32. SECOND LARGEST IN ARRAY, Algorithm: Linear Traversal with Tracking
 // let arr = [6, 23, 2, 5, 1, 3, 6];
 // let largest = -Infinity;
 // let secLargest = -Infinity;
@@ -601,7 +601,7 @@
 // }
 // console.log(secLargest);
 
-// 38. KADANE'S ALGORITHM (MAXIMUM SUBARRAY SUM)-
+// 33. KADANE'S ALGORITHM (MAXIMUM SUBARRAY SUM)-
 // let arr = [-2, -3, -4, 2, -2, -1, -5, -3];
 // function maxSubSum(arr){
 // let currentSum = arr[0];
@@ -614,7 +614,7 @@
 // }
 // console.log(maxSubSum(arr));
 
-// 40. STRING COMPRESSION
+// 34. STRING COMPRESSION
 // let compress = "aaabbbcee";
 
 // function compressString(str){
@@ -635,7 +635,7 @@
 // };
 // console.log(compressString(compress));
 
-// 41. MOVE ZEROS TO END,Algorithm: Two Pointer (Stable Partition)
+// 35. MOVE ZEROS TO END,Algorithm: Two Pointer (Stable Partition)
 // let num = [0, 1, 0, 3, 12];
 // function  MoveZeroes(){
 //     let newArr = [];
@@ -656,7 +656,7 @@
 // console.log(MoveZeroes(num));
 
 
-// 42. MOVE ZEROS TO END,Algorithm: Two Pointer (Stable Partition)
+// 36. MOVE ZEROS TO END,Algorithm: Two Pointer (Stable Partition)
 // let num = [0, 1, 0, 3, 12];
 
 // let i = 0;
@@ -673,7 +673,7 @@
 // };
 // console.log(num);
 
-// 43. ROTATE ARRAY BY K POSITIONS,Algorithm: Array Reversal Technique
+// 37. ROTATE ARRAY BY K POSITIONS,Algorithm: Array Reversal Technique
 
 // let nums = [1, 2, 3, 4, 5, 6, 7], k = 3;
 
@@ -694,7 +694,7 @@
 
 
 
-// 44. REVERSE WORDS IN STRING,Algorithm: Split, Reverse, Join
+// 38. REVERSE WORDS IN STRING,Algorithm: Split, Reverse, Join
 
 // let str = "the sky is blue";
 // const newStr = str.split(" ").reverse().join(" ");
@@ -727,7 +727,7 @@
 // const double = multiplier(2);
 // console.log(double(5));
 
-// 48. FIND MISSING NUMBER,Algorithm: Sequential Search
+// 39. FIND MISSING NUMBER,Algorithm: Sequential Search
 // let miss = [9, 6, 4, 2, 3, 5, 7, 0, 1];
 // let n = miss.length;
 // let expectedSum = n*(n+1)/2;
@@ -737,7 +737,7 @@
 // };
 // console.log(expectedSum-actualSum);
 
-// 51. MERGE TWO SORTED ARRAYS,Algorithm: Two Pointer Merge
+// 40. MERGE TWO SORTED ARRAYS,Algorithm: Two Pointer Merge
 // let arr1 = [1, 3, 5, 7], arr2 = [2, 4, 6, 8];
 // function MergeTwoSorted(arr1, arr2){
 //     let i = 0, j = 0;
@@ -771,36 +771,32 @@
 // console.log(MergeTwoSorted(arr1, arr2));
 
 
-// 53. MAJORITY ELEMENT (BOYER-MOORE VOTING),Algorithm: Boyer-Moore Voting Algorithm
-let elm = [1, 2, 1, 4, 1, 1, 1];
-function MajorityElm(elm){
-    let temp = {};
-    for(let i = 0; i<elm.length; i++){
-        let num = elm[i]
-        if (temp[num]) {
-            temp[num]++
-        }else{
-            temp[num] = 1;
-        };
-    };
-    let greaterNumber = 0;
-    let keyword1 = null;
-    for(let val in temp){
-       if (temp[val] > greaterNumber) {
-        greaterNumber = temp[val];
-        keyword1 = val;
-       }
+// 41. MAJORITY ELEMENT (BOYER-MOORE VOTING),Algorithm: Boyer-Moore Voting Algorithm
+// let elm = [1, 2, 1, 4, 1, 1, 1];
+// function MajorityElm(elm){
+//     let temp = {};
+//     for(let i = 0; i<elm.length; i++){
+//         let num = elm[i]
+//         if (temp[num]) {
+//             temp[num]++
+//         }else{
+//             temp[num] = 1;
+//         };
+//     };
+//     let greaterNumber = 0;
+//     let keyword1 = null;
+//     for(let val in temp){
+//        if (temp[val] > greaterNumber) {
+//         greaterNumber = temp[val];
+//         keyword1 = val;
+//        }
         
-    }
-    console.log(keyword1);
-    
-    
-    if(greaterNumber > Math.floor(elm.length/2)){
-       console.log( keyword1 , " its a majority element");
+//     }
+//     if(greaterNumber > Math.floor(elm.length/2)){
+//        console.log( keyword1 , " its a majority element");
        
-    }else
-        console.log("not majority element");
-        
-    
-}
-MajorityElm(elm)
+//     }else
+//         console.log("not majority element");     
+// }
+// MajorityElm(elm)
+
