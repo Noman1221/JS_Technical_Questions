@@ -167,7 +167,7 @@
 // };
 // console.log(largest(num));
 
-// 12. POWER CALCULATION (X^N) - OPTIMIZED 
+
 
 
 
@@ -800,3 +800,16 @@
 // }
 // MajorityElm(elm)
 
+// function sum(...numbers){
+//     console.log(numbers);
+    
+//    return numbers.reduce((a,b)=>a+b);
+// };
+
+// console.log(sum(1,2,3,4));
+
+
+// 12. POWER CALCULATION (X^N) - OPTIMIZED 
+//  Contains Duplicate
+//  Maximum Subarray Sum
+//  Reverse Array In-Place
